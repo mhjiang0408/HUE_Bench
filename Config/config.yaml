@@ -1,0 +1,15 @@
+models:
+  - name: gpt-4o
+    api_base: https://api.openai.com/v1
+    api_key: sk-xxx
+    prompt_template: Config/prompt_template/4_choice_template.json
+    resume: true
+    resume_path: ./experiment/results/xxx/results.csv
+    num_workers: 5
+
+data:
+  data_path: ./comics_2025.csv
+  output_folder: ./experiment/results
+  scaling_factor: 1
+  num_options: 4
+  random_seed: 42

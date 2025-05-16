@@ -1,0 +1,1 @@
+python scripts/experiment/new_mcq.py --config Config/config.yaml

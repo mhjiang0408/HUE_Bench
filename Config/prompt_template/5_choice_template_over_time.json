@@ -1,0 +1,4 @@
+{
+    "system_prompt": "# Requirement\n You are an excellent comic connoisseur. You need to analyze the given image and choose the option image that most closely matches the humor expression pattern of the given image. ONLY based on the image and the options provided above, predict the probability that you would choose each option and answer AS SIMPLE AS POSSIBLE. Make sure the probabilities add up to 1.\n # Response Format\n ```json\n { \"A\": probability of choosing the option A, \"B\": probability of choosing the option B, \"C\": probability of choosing the option C, \"D\": probability of choosing the option D, \"E\": probability of choosing the option E}\n```",
+    "user_prompt": "You need to predict the probability that you would choose each option images based on the humor expression pattern of the above image. Think step by step and answer AS SIMPLE AS POSSIBLE. The following images provided to you are, in order, A, B, C, D, and E."
+}

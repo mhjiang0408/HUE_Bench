@@ -1,0 +1,27 @@
+[project]
+name = "comic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "curl-cffi>=0.10.0",
+    "easyocr>=1.7.2",
+    "google>=3.0.0",
+    "google-genai>=1.13.0",
+    "google-generativeai>=0.8.5",
+    "kaggle>=1.7.4.5",
+    "matplotlib>=3.10.1",
+    "open-clip-torch==2.31.0",
+    "openai>=1.76.0",
+    "opencv-python>=4.11.0.86",
+    "requests>=2.32.3",
+    "ruff>=0.11.7",
+    "seaborn>=0.13.2",
+    "torch==2.6.0",
+    "torchvision==0.21.0",
+    "tqdm>=4.67.1",
+    "transformers==4.48.0",
+    "wandb>=0.19.10",
+]

@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.vscode/
+.venv
+.DS_Store
+results/
+HUE_Bench/
+Result_Analysis/
+gocomics_downloads/
+gocomics_downloads1/
+gocomics_downloads_political/
+
+*.log
+messages.json
+wandb/
