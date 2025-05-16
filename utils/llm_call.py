@@ -36,8 +36,8 @@ def retry_on_failure(max_retries=3, delay=1):
 
 class CallLLM:
     def __init__(self, model:str = "Qwen/Qwen2.5-7B-Instruct", 
-                 api_base:str = "http://cn.api.beer/v1", 
-                 api_key:str = "sk-Z0MdU0NAXCmiwYF_GjMe5rCO_2iFNU_FuPnS7jdcge54rdYa2yRnF6S9ngk"):
+                 api_base:str = "https://api.openai.com/v1", 
+                 api_key:str = "sk-xxx"):
         self.model = model
         self.api_base = api_base
         self.api_key = api_key

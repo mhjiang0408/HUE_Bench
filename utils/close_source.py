@@ -12,7 +12,7 @@ from PIL import Image
 class QwenEmbedding:
     def __init__(self,model_name="multimodal-embedding-v1"):
         self.model = model_name
-        self.api_key = "sk-013d195ed6274678ab3cd71f5b04db50"
+        self.api_key = "sk-xxx"
     def save_image_embeddings(self, image_path,save_path):
         # image_base64 = base64.b64encode(open(image_path, 'rb').read()).decode('utf-8')
         img = Image.open(image_path)
